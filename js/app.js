@@ -40,6 +40,17 @@ const Membri = [
 for (let i = 0; i < Membri.length; i++) {
      MembriTeam = Membri[i]
      console.log(MembriTeam);
+ 
+     const team = document.querySelector(".team");
+
+     const div = document.createElement("div");
+    
+     team.append(div);
+     div.innerHTML = `
+
+     ${MembriTeam.name}, ${MembriTeam.ruolo}, ${MembriTeam.foto}
+     `
+
 
      
 }
