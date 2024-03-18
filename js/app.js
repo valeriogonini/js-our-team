@@ -39,7 +39,7 @@ const Membri = [
 
 for (let i = 0; i < Membri.length; i++) {
      MembriTeam = Membri[i]
-     console.log(MembriTeam);
+     console.log(MembriTeam.name, MembriTeam.ruolo, MembriTeam.foto);
  
      const team = document.querySelector(".team");
 
